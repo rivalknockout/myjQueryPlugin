@@ -11,7 +11,7 @@
 			display: 'block', position: 'fixed', right: 0, bottom: 0, cursor: 'pointer', zIndex: 99999
 		});
 		$pa.click(function(){
-			$(window).animate({
+			$('body').animate({
 				scrollTop: 0
 			}, SPEED, EASE);
 		});
