@@ -21,7 +21,7 @@
 		});
 		//event
 		$pa.click(function(){
-			$('body').stop(true, true).animate({
+			$('body, html').stop(true, true).animate({
 				scrollTop: 0
 			}, SPEED, EASE);
 		});
